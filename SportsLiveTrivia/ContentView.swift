@@ -10,7 +10,8 @@ import SwiftUI
 struct ContentView: View {
     var body: some View {
         
-            Image(systemName: "nba_logo")
+        Image("nba_logo")
+            
         }
     }
 
