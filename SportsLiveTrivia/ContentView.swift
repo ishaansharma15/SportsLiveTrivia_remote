@@ -10,7 +10,7 @@ import SwiftUI
 struct ContentView: View {
     var body: some View {
         
-        Image("nba_logo")
+        Image("nba_logo").resizable()
             
         }
     }
