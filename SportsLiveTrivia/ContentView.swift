@@ -9,17 +9,10 @@ import SwiftUI
 
 struct ContentView: View {
     var body: some View {
-        VStack {
-            Image(systemName: "square")
-                .imageScale(.large)
-                .foregroundColor(.accentColor)
-                
-            Text("SLT")
-            Text("ab3131 change")
+        
+            Image(systemName: "nba_logo")
         }
-        .padding()
     }
-}
 
 struct ContentView_Previews: PreviewProvider {
     static var previews: some View {
