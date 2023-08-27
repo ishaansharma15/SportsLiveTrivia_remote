@@ -11,8 +11,9 @@ struct ContentView: View {
     var body: some View {
         VStack{
             Image("nba_logo").resizable().aspectRatio(contentMode: .fit)
-            Image("nfllogo").resizable().aspectRatio(contentMode: .fit)
-            
+            Text("NBA").bold()
+                Image("nfllogo").resizable().aspectRatio(contentMode: .fit)
+            Text("NFL").bold()
         }
         
             
