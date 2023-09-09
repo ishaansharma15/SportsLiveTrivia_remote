@@ -8,16 +8,16 @@
 import SwiftUI
 
 struct ContentView: View {
-    var text: String
-    var background: Color = Color("AccentColor")
+    var color = "AccentColor"
     var body: some View {
-        Text(text)
+        VStack(spacing: 40){
             
+        }.frame(maxWidth: .infinity, maxHeight: .infinity).edgesIgnoringSafeArea(.all).background(Color(color))
         }
     }
 
 struct ContentView_Previews: PreviewProvider {
     static var previews: some View {
-        ContentView(text: "Next")
+        ContentView()
     }
 }

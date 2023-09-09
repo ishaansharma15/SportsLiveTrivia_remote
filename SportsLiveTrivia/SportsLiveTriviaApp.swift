@@ -18,6 +18,6 @@ struct SportsLiveTriviaApp: App {
 
 struct Previews_SportsLiveTriviaApp_Previews: PreviewProvider {
     static var previews: some View {
-        PrimaryButton(text: "Next")
+        ContentView()
     }
 }
