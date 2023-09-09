@@ -11,7 +11,13 @@ import SwiftUI
 struct SportsLiveTriviaApp: App {
     var body: some Scene {
         WindowGroup {
-            ContentView()
+            PrimaryButton(text: "Next")
         }
+    }
+}
+
+struct Previews_SportsLiveTriviaApp_Previews: PreviewProvider {
+    static var previews: some View {
+        PrimaryButton(text: "Next")
     }
 }
