@@ -11,7 +11,7 @@ import SwiftUI
 struct SportsLiveTriviaApp: App {
     var body: some Scene {
         WindowGroup {
-            PrimaryButton(text: "Next")
+            SignIn(text: "Next")
         }
     }
 }
