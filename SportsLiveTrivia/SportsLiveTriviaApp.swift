@@ -11,13 +11,13 @@ import SwiftUI
 struct SportsLiveTriviaApp: App {
     var body: some Scene {
         WindowGroup {
-            HomePage()
+            SignIn()
         }
     }
 }
 
 struct Previews_SportsLiveTriviaApp_Previews: PreviewProvider {
     static var previews: some View {
-        HomePage()
+        SignIn()
     }
 }

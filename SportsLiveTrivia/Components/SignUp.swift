@@ -17,7 +17,6 @@ struct SignUp: View {
     @State var confirmPasswordText: String = ""
     @State var dataArray: [String] = []
     var body: some View {
-        NavigationView {
             VStack(spacing: 60.0) {
                 Text("Sign Up").foregroundColor(.white).bold().font(.largeTitle).padding(.horizontal, 30).frame(maxWidth: 400, alignment: .center)
                 TextField("Email", text: $emailText).padding().background(.white).cornerRadius(10).frame(maxWidth: 300).foregroundColor(thirdColor)
@@ -36,21 +35,13 @@ struct SignUp: View {
                     }
                     
                 }
-                                      
-                
-                    
-                
-            }.frame(maxWidth: .infinity, maxHeight: .infinity).edgesIgnoringSafeArea(.all).background(secondColor)
-        }
+        }.frame(maxWidth: .infinity, maxHeight: .infinity).edgesIgnoringSafeArea(.all).background(secondColor)
     }
     @ViewBuilder
     func submit() -> some View {
         if(confirmPasswordText==passwordText){
             
             HomePage()
-        }
-        else{
-            SignIn()
         }
         
         

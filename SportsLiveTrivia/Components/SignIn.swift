@@ -49,9 +49,6 @@ struct SignIn: View {
         if(emailText==passwordText){
             HomePage()
         }
-        else{
-            SignIn()
-        }
         
         
     }

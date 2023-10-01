@@ -9,7 +9,12 @@ import SwiftUI
 
 struct NFLPage: View {
     var body: some View {
-        Text("Hello, NFL!")
+        HStack{
+            NavigationLink(destination: SignIn()) {
+                Text("Sign In ").foregroundColor(.white).bold().frame(maxWidth: 80).underline()
+            }
+        }
+    
     }
 }
 

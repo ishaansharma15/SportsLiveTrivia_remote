@@ -10,7 +10,7 @@ import SwiftUI
 struct HomePage: View {
     var color = "SecondaryColor"
     var body: some View {
-        NavigationView{
+        
             HStack{
                 NavigationLink(destination: NBAPage()) {
                     VStack(spacing: 40){
@@ -34,8 +34,7 @@ struct HomePage: View {
         }
     }
     
-    
-}
+
 
 
 

@@ -18,6 +18,7 @@
 		F38525572AB95F930084D16C /* HomePage.swift in Sources */ = {isa = PBXBuildFile; fileRef = F38525562AB95F930084D16C /* HomePage.swift */; };
 		F38525592AB9613E0084D16C /* NBAPage.swift in Sources */ = {isa = PBXBuildFile; fileRef = F38525582AB9613E0084D16C /* NBAPage.swift */; };
 		F385255B2AB963E80084D16C /* NFLPage.swift in Sources */ = {isa = PBXBuildFile; fileRef = F385255A2AB963E80084D16C /* NFLPage.swift */; };
+		F385255E2AC4E0710084D16C /* SF.swift in Sources */ = {isa = PBXBuildFile; fileRef = F385255D2AC4E0710084D16C /* SF.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -52,6 +53,7 @@
 		F38525562AB95F930084D16C /* HomePage.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomePage.swift; sourceTree = "<group>"; };
 		F38525582AB9613E0084D16C /* NBAPage.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NBAPage.swift; sourceTree = "<group>"; };
 		F385255A2AB963E80084D16C /* NFLPage.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NFLPage.swift; sourceTree = "<group>"; };
+		F385255D2AC4E0710084D16C /* SF.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SF.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -102,6 +104,7 @@
 		E20E82DA2A92D1F500B3F78C /* SportsLiveTrivia */ = {
 			isa = PBXGroup;
 			children = (
+				F385255C2AC4E0540084D16C /* NFLTeams */,
 				F358FF8C2AAD2DF500805226 /* Views */,
 				F3660F082AA3ED7D004D1039 /* Components */,
 				E20E82DB2A92D1F500B3F78C /* SportsLiveTriviaApp.swift */,
@@ -153,6 +156,14 @@
 				F385255A2AB963E80084D16C /* NFLPage.swift */,
 			);
 			path = Components;
+			sourceTree = "<group>";
+		};
+		F385255C2AC4E0540084D16C /* NFLTeams */ = {
+			isa = PBXGroup;
+			children = (
+				F385255D2AC4E0710084D16C /* SF.swift */,
+			);
+			path = NFLTeams;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -288,6 +299,7 @@
 				F38525592AB9613E0084D16C /* NBAPage.swift in Sources */,
 				F385255B2AB963E80084D16C /* NFLPage.swift in Sources */,
 				F3660F0C2AA3EE4C004D1039 /* SignIn.swift in Sources */,
+				F385255E2AC4E0710084D16C /* SF.swift in Sources */,
 				F38525572AB95F930084D16C /* HomePage.swift in Sources */,
 				F38525532AB6D6410084D16C /* SignUp.swift in Sources */,
 				E20E82DC2A92D1F500B3F78C /* SportsLiveTriviaApp.swift in Sources */,
