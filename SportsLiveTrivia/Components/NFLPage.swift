@@ -9,11 +9,11 @@ import SwiftUI
 
 struct NFLPage: View {
     var body: some View {
-        HStack{
-            NavigationLink(destination: SignIn()) {
-                Text("Sign In ").foregroundColor(.white).bold().frame(maxWidth: 80).underline()
-            }
-        }
+        var background: Color = Color("AccentColor")
+        var secondColor: Color = Color("SecondaryColor")
+        VStack{
+            Text("Welcome to today's trivia!").foregroundColor(.white).bold().font(.largeTitle)
+        }.frame(maxWidth: .infinity, maxHeight: .infinity).edgesIgnoringSafeArea(.all).background(secondColor)
     
     }
 }
