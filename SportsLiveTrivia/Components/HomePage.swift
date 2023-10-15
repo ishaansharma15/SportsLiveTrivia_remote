@@ -16,7 +16,8 @@ struct HomePage: View {
                     VStack(spacing: 40){
                         Image("Basketball").resizable().frame(maxWidth: 200, maxHeight: 200).scaledToFit()
                         
-                        Text("NBA").foregroundColor(.white).bold()
+                        Text("NBA").foregroundColor(.white).bold().font(.system(size: 30))
+                        
                     }
                     
                 }
