@@ -11,8 +11,10 @@ struct NBAPage: View {
     var background: Color = Color("AccentColor")
     var secondColor: Color = Color("SecondaryColor")
     var thirdColor: Color = Color("TertiaryColor")
+    var fourthColor: Color = Color("Color4")
     var body: some View {
         VStack(spacing: 30){
+            Text("NBA").foregroundColor(fourthColor).bold().font(.system(size: 60))
             Text("Welcome to today's trivia!").foregroundColor(.white).bold().font(.system(size: 30))
             Text("Choose a mode:").foregroundColor(background).bold().font(.system(size: 30))
             NavigationLink(destination: EasyMode()) {

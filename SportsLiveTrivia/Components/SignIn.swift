@@ -33,13 +33,6 @@ struct SignIn: View {
                     }
                     
                 }
-                
-                
-                
-                                      
-                
-                    
-                
             }.frame(maxWidth: .infinity, maxHeight: .infinity).edgesIgnoringSafeArea(.all).background(secondColor)
         }
 
