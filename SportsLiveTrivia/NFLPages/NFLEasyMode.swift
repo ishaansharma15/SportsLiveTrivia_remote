@@ -7,15 +7,15 @@
 
 import SwiftUI
 
-struct SF: View {
-    
+struct NFLEasyMode: View {
     var body: some View {
-        Text("Hello, World!")
+        Text("NFL Easy Mode")
     }
 }
 
-struct SF_Previews: PreviewProvider {
+struct NFLEasyMode_Previews: PreviewProvider {
     static var previews: some View {
-        SF()
+        NFLEasyMode()
     }
 }
+

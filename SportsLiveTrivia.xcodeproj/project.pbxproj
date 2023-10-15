@@ -13,12 +13,15 @@
 		E20E82ED2A92D1F800B3F78C /* SportsLiveTriviaTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = E20E82EC2A92D1F800B3F78C /* SportsLiveTriviaTests.swift */; };
 		E20E82F72A92D1F800B3F78C /* SportsLiveTriviaUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = E20E82F62A92D1F800B3F78C /* SportsLiveTriviaUITests.swift */; };
 		E20E82F92A92D1F800B3F78C /* SportsLiveTriviaUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = E20E82F82A92D1F800B3F78C /* SportsLiveTriviaUITestsLaunchTests.swift */; };
+		E25371AE2ADB6C240014E3EC /* NFLMediumMode.swift in Sources */ = {isa = PBXBuildFile; fileRef = E25371AD2ADB6C240014E3EC /* NFLMediumMode.swift */; };
+		E25371B02ADB6C4D0014E3EC /* NFLHardMode.swift in Sources */ = {isa = PBXBuildFile; fileRef = E25371AF2ADB6C4D0014E3EC /* NFLHardMode.swift */; };
+		E25371B22ADB6C700014E3EC /* NFLExtremeMode.swift in Sources */ = {isa = PBXBuildFile; fileRef = E25371B12ADB6C700014E3EC /* NFLExtremeMode.swift */; };
 		F3660F0C2AA3EE4C004D1039 /* SignIn.swift in Sources */ = {isa = PBXBuildFile; fileRef = F3660F0B2AA3EE4C004D1039 /* SignIn.swift */; };
 		F38525532AB6D6410084D16C /* SignUp.swift in Sources */ = {isa = PBXBuildFile; fileRef = F38525522AB6D6410084D16C /* SignUp.swift */; };
 		F38525572AB95F930084D16C /* HomePage.swift in Sources */ = {isa = PBXBuildFile; fileRef = F38525562AB95F930084D16C /* HomePage.swift */; };
 		F38525592AB9613E0084D16C /* NBAPage.swift in Sources */ = {isa = PBXBuildFile; fileRef = F38525582AB9613E0084D16C /* NBAPage.swift */; };
 		F385255B2AB963E80084D16C /* NFLPage.swift in Sources */ = {isa = PBXBuildFile; fileRef = F385255A2AB963E80084D16C /* NFLPage.swift */; };
-		F385255E2AC4E0710084D16C /* SF.swift in Sources */ = {isa = PBXBuildFile; fileRef = F385255D2AC4E0710084D16C /* SF.swift */; };
+		F385255E2AC4E0710084D16C /* NFLEasyMode.swift in Sources */ = {isa = PBXBuildFile; fileRef = F385255D2AC4E0710084D16C /* NFLEasyMode.swift */; };
 		F3BECF3F2ADB5C8F0007120E /* EasyMode.swift in Sources */ = {isa = PBXBuildFile; fileRef = F3BECF3E2ADB5C8F0007120E /* EasyMode.swift */; };
 		F3BECF412ADB5CB80007120E /* MediumMode.swift in Sources */ = {isa = PBXBuildFile; fileRef = F3BECF402ADB5CB80007120E /* MediumMode.swift */; };
 		F3BECF432ADB5CDA0007120E /* HardMode.swift in Sources */ = {isa = PBXBuildFile; fileRef = F3BECF422ADB5CDA0007120E /* HardMode.swift */; };
@@ -52,12 +55,15 @@
 		E20E82F22A92D1F800B3F78C /* SportsLiveTriviaUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SportsLiveTriviaUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		E20E82F62A92D1F800B3F78C /* SportsLiveTriviaUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SportsLiveTriviaUITests.swift; sourceTree = "<group>"; };
 		E20E82F82A92D1F800B3F78C /* SportsLiveTriviaUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SportsLiveTriviaUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		E25371AD2ADB6C240014E3EC /* NFLMediumMode.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NFLMediumMode.swift; sourceTree = "<group>"; };
+		E25371AF2ADB6C4D0014E3EC /* NFLHardMode.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NFLHardMode.swift; sourceTree = "<group>"; };
+		E25371B12ADB6C700014E3EC /* NFLExtremeMode.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NFLExtremeMode.swift; sourceTree = "<group>"; };
 		F3660F0B2AA3EE4C004D1039 /* SignIn.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SignIn.swift; sourceTree = "<group>"; };
 		F38525522AB6D6410084D16C /* SignUp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SignUp.swift; sourceTree = "<group>"; };
 		F38525562AB95F930084D16C /* HomePage.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomePage.swift; sourceTree = "<group>"; };
 		F38525582AB9613E0084D16C /* NBAPage.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NBAPage.swift; sourceTree = "<group>"; };
 		F385255A2AB963E80084D16C /* NFLPage.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NFLPage.swift; sourceTree = "<group>"; };
-		F385255D2AC4E0710084D16C /* SF.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SF.swift; sourceTree = "<group>"; };
+		F385255D2AC4E0710084D16C /* NFLEasyMode.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NFLEasyMode.swift; sourceTree = "<group>"; };
 		F3BECF3E2ADB5C8F0007120E /* EasyMode.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EasyMode.swift; sourceTree = "<group>"; };
 		F3BECF402ADB5CB80007120E /* MediumMode.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MediumMode.swift; sourceTree = "<group>"; };
 		F3BECF422ADB5CDA0007120E /* HardMode.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HardMode.swift; sourceTree = "<group>"; };
@@ -113,7 +119,7 @@
 			isa = PBXGroup;
 			children = (
 				F3BECF3D2ADB5C800007120E /* NBAPages */,
-				F385255C2AC4E0540084D16C /* NFLTeams */,
+				F385255C2AC4E0540084D16C /* NFLPages */,
 				F358FF8C2AAD2DF500805226 /* Views */,
 				F3660F082AA3ED7D004D1039 /* Components */,
 				E20E82DB2A92D1F500B3F78C /* SportsLiveTriviaApp.swift */,
@@ -167,12 +173,15 @@
 			path = Components;
 			sourceTree = "<group>";
 		};
-		F385255C2AC4E0540084D16C /* NFLTeams */ = {
+		F385255C2AC4E0540084D16C /* NFLPages */ = {
 			isa = PBXGroup;
 			children = (
-				F385255D2AC4E0710084D16C /* SF.swift */,
+				F385255D2AC4E0710084D16C /* NFLEasyMode.swift */,
+				E25371AD2ADB6C240014E3EC /* NFLMediumMode.swift */,
+				E25371AF2ADB6C4D0014E3EC /* NFLHardMode.swift */,
+				E25371B12ADB6C700014E3EC /* NFLExtremeMode.swift */,
 			);
-			path = NFLTeams;
+			path = NFLPages;
 			sourceTree = "<group>";
 		};
 		F3BECF3D2ADB5C800007120E /* NBAPages */ = {
@@ -321,12 +330,15 @@
 				F385255B2AB963E80084D16C /* NFLPage.swift in Sources */,
 				F3BECF432ADB5CDA0007120E /* HardMode.swift in Sources */,
 				F3660F0C2AA3EE4C004D1039 /* SignIn.swift in Sources */,
-				F385255E2AC4E0710084D16C /* SF.swift in Sources */,
+				F385255E2AC4E0710084D16C /* NFLEasyMode.swift in Sources */,
 				F38525572AB95F930084D16C /* HomePage.swift in Sources */,
 				F3BECF452ADB5CEA0007120E /* ExtremeMode.swift in Sources */,
+				E25371B22ADB6C700014E3EC /* NFLExtremeMode.swift in Sources */,
+				E25371AE2ADB6C240014E3EC /* NFLMediumMode.swift in Sources */,
 				F3BECF412ADB5CB80007120E /* MediumMode.swift in Sources */,
 				F38525532AB6D6410084D16C /* SignUp.swift in Sources */,
 				E20E82DC2A92D1F500B3F78C /* SportsLiveTriviaApp.swift in Sources */,
+				E25371B02ADB6C4D0014E3EC /* NFLHardMode.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
