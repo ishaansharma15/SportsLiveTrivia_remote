@@ -9,9 +9,14 @@ import SwiftUI
 
 struct NFLEasyMode: View {
     var body: some View {
-        Text("NFL Easy Mode").bold()
+    
+        VStack {
+            Text("NFL Easy Mode").bold()
+        }
+        
     }
 }
+    .background(Color(color))
 
 struct NFLEasyMode_Previews: PreviewProvider {
     static var previews: some View {
