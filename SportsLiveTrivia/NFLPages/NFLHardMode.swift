@@ -9,7 +9,7 @@ import SwiftUI
 
 struct NFLHardMode: View {
     var body: some View {
-        Text("NFL Hard Mode")
+        Text("NFL Hard Mode").bold()
     }
 }
 
