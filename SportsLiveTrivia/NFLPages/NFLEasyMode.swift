@@ -11,7 +11,7 @@ struct NFLEasyMode: View {
     var body: some View {
     
         VStack {
-            Text("NFL Easy Mode")
+            Text("NFL Easy Mode").bold().font(.system(size: 30))
         }
         
     }
