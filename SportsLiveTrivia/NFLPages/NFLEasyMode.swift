@@ -16,7 +16,6 @@ struct NFLEasyMode: View {
         
     }
 }
-    .background(Color(color))
 
 struct NFLEasyMode_Previews: PreviewProvider {
     static var previews: some View {
