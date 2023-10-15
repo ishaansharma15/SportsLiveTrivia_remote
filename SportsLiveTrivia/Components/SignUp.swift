@@ -27,14 +27,6 @@ struct SignUp: View {
                 NavigationLink(destination: submit()) {
                     Text("Create Account").bold().foregroundColor(.white).frame(maxWidth: 275).padding(.vertical).padding(.horizontal).background(background).cornerRadius(10).shadow(radius: 10).bold()
                 }
-                HStack{
-                    Text("Already have an account? ").foregroundColor(.white).bold().frame(maxWidth: 210)
-                    
-                    NavigationLink(destination: SignIn()) {
-                        Text("Sign In ").foregroundColor(.white).bold().frame(maxWidth: 80).underline()
-                    }
-                    
-                }
         }.frame(maxWidth: .infinity, maxHeight: .infinity).edgesIgnoringSafeArea(.all).background(secondColor)
     }
     @ViewBuilder

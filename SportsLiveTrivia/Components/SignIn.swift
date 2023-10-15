@@ -23,7 +23,7 @@ struct SignIn: View {
                 SecureField("Password", text: $passwordText).padding().background(.white).cornerRadius(10).frame(maxWidth: 300).foregroundColor(thirdColor)
                 
                 NavigationLink(destination: submit()) {
-                    Text("Submit").bold().foregroundColor(.white).frame(maxWidth: 275).padding(.vertical).padding(.horizontal).background(background).cornerRadius(10).shadow(radius: 10).bold()
+                    Text("Submit").bold().foregroundColor(.white).frame(maxWidth: 275).padding(.vertical).padding(.horizontal).background(background).cornerRadius(10).shadow(radius: 10)
                 }
                 HStack{
                     Text("Don't have an account? ").foregroundColor(.white).bold().frame(maxWidth: 190)

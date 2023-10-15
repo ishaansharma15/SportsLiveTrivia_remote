@@ -11,10 +11,10 @@ struct HomePage: View {
     var color = "SecondaryColor"
     var body: some View {
         
-            HStack{
+            VStack{
                 NavigationLink(destination: NBAPage()) {
                     VStack(spacing: 40){
-                        Image("nba_logo").resizable(capInsets: EdgeInsets()).frame(maxWidth: 100, maxHeight: 200).scaledToFit()
+                        Image("retry5").resizable(capInsets: EdgeInsets()).frame(maxWidth: 200, maxHeight: 200).scaledToFit()
                         
                         Text("NBA").foregroundColor(.white).bold()
                     }

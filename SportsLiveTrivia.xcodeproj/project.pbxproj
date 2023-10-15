@@ -19,6 +19,10 @@
 		F38525592AB9613E0084D16C /* NBAPage.swift in Sources */ = {isa = PBXBuildFile; fileRef = F38525582AB9613E0084D16C /* NBAPage.swift */; };
 		F385255B2AB963E80084D16C /* NFLPage.swift in Sources */ = {isa = PBXBuildFile; fileRef = F385255A2AB963E80084D16C /* NFLPage.swift */; };
 		F385255E2AC4E0710084D16C /* SF.swift in Sources */ = {isa = PBXBuildFile; fileRef = F385255D2AC4E0710084D16C /* SF.swift */; };
+		F3BECF3F2ADB5C8F0007120E /* EasyMode.swift in Sources */ = {isa = PBXBuildFile; fileRef = F3BECF3E2ADB5C8F0007120E /* EasyMode.swift */; };
+		F3BECF412ADB5CB80007120E /* MediumMode.swift in Sources */ = {isa = PBXBuildFile; fileRef = F3BECF402ADB5CB80007120E /* MediumMode.swift */; };
+		F3BECF432ADB5CDA0007120E /* HardMode.swift in Sources */ = {isa = PBXBuildFile; fileRef = F3BECF422ADB5CDA0007120E /* HardMode.swift */; };
+		F3BECF452ADB5CEA0007120E /* ExtremeMode.swift in Sources */ = {isa = PBXBuildFile; fileRef = F3BECF442ADB5CEA0007120E /* ExtremeMode.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -54,6 +58,10 @@
 		F38525582AB9613E0084D16C /* NBAPage.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NBAPage.swift; sourceTree = "<group>"; };
 		F385255A2AB963E80084D16C /* NFLPage.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NFLPage.swift; sourceTree = "<group>"; };
 		F385255D2AC4E0710084D16C /* SF.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SF.swift; sourceTree = "<group>"; };
+		F3BECF3E2ADB5C8F0007120E /* EasyMode.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EasyMode.swift; sourceTree = "<group>"; };
+		F3BECF402ADB5CB80007120E /* MediumMode.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MediumMode.swift; sourceTree = "<group>"; };
+		F3BECF422ADB5CDA0007120E /* HardMode.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HardMode.swift; sourceTree = "<group>"; };
+		F3BECF442ADB5CEA0007120E /* ExtremeMode.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ExtremeMode.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -104,6 +112,7 @@
 		E20E82DA2A92D1F500B3F78C /* SportsLiveTrivia */ = {
 			isa = PBXGroup;
 			children = (
+				F3BECF3D2ADB5C800007120E /* NBAPages */,
 				F385255C2AC4E0540084D16C /* NFLTeams */,
 				F358FF8C2AAD2DF500805226 /* Views */,
 				F3660F082AA3ED7D004D1039 /* Components */,
@@ -164,6 +173,17 @@
 				F385255D2AC4E0710084D16C /* SF.swift */,
 			);
 			path = NFLTeams;
+			sourceTree = "<group>";
+		};
+		F3BECF3D2ADB5C800007120E /* NBAPages */ = {
+			isa = PBXGroup;
+			children = (
+				F3BECF3E2ADB5C8F0007120E /* EasyMode.swift */,
+				F3BECF402ADB5CB80007120E /* MediumMode.swift */,
+				F3BECF422ADB5CDA0007120E /* HardMode.swift */,
+				F3BECF442ADB5CEA0007120E /* ExtremeMode.swift */,
+			);
+			path = NBAPages;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -296,11 +316,15 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				F3BECF3F2ADB5C8F0007120E /* EasyMode.swift in Sources */,
 				F38525592AB9613E0084D16C /* NBAPage.swift in Sources */,
 				F385255B2AB963E80084D16C /* NFLPage.swift in Sources */,
+				F3BECF432ADB5CDA0007120E /* HardMode.swift in Sources */,
 				F3660F0C2AA3EE4C004D1039 /* SignIn.swift in Sources */,
 				F385255E2AC4E0710084D16C /* SF.swift in Sources */,
 				F38525572AB95F930084D16C /* HomePage.swift in Sources */,
+				F3BECF452ADB5CEA0007120E /* ExtremeMode.swift in Sources */,
+				F3BECF412ADB5CB80007120E /* MediumMode.swift in Sources */,
 				F38525532AB6D6410084D16C /* SignUp.swift in Sources */,
 				E20E82DC2A92D1F500B3F78C /* SportsLiveTriviaApp.swift in Sources */,
 			);
