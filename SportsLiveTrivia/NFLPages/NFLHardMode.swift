@@ -8,8 +8,14 @@
 import SwiftUI
 
 struct NFLHardMode: View {
+    var color = "SecondaryColor"
     var body: some View {
-        Text("NFL Hard Mode").bold()
+    
+        VStack {
+            Text("NFL Hard Mode").bold().font(.system(size: 30)).foregroundColor(.white)
+        }
+        
+        .frame(maxWidth: .infinity, maxHeight: .infinity).edgesIgnoringSafeArea(.all).background(Color(color))
     }
 }
 
