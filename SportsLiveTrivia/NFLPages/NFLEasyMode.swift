@@ -13,7 +13,7 @@ struct NFLEasyMode: View {
     var thirdColor: Color = Color("TertiaryColor")
     var fourthColor: Color = Color("Color4")
     @State var questionNum: Int = 0
-    let questions = ["Which NFL player has the most Superbowl wins?", "Who won the Superbowl last year?", "Which team's primary colors are black and orange?", "How many points is a touchdown worth?", "How many teams are in the NFL?"] 
+    let questions = ["Which NFL player has the most Superbowl wins?", "Who won the Superbowl last year?", "Which team's primary colors are black and orange?", "How many points is a touchdown worth?"]
     let answers = ["Tom Brady","Chiefs", "Bengals", "6", "30"]
     
     let mc1 = ["Jerry Rice", "Bengals", "Steelers", "6", "10"]
@@ -68,7 +68,22 @@ struct NFLEasyMode: View {
                 } label: {
                     Label(mc3[questionNum], systemImage: ".cloud.rain").labelStyle(.titleOnly).bold().foregroundColor(.white).frame(maxWidth: 275).padding(.vertical).padding(.horizontal).background(thirdColor).cornerRadius(10).shadow(radius: 10)
                 }
+                
+                Button {
+                    if answers[questionNum] == mc1[questionNum]{
+                        correct+=1
+                    }
+                    if questionNum<max{
+                        questionNum+=1
+                    }
+                    
+                    
+                } label: {
+                    Label(mc4[questionNum], systemImage: ".cloud.rain").labelStyle(.titleOnly).bold().foregroundColor(.white).frame(maxWidth: 275).padding(.vertical).padding(.horizontal).background(thirdColor).cornerRadius(10).shadow(radius: 10)
+                }
+                
             }
+            
             else{
                 Text("You got " + String(correct) + " questions correct!").foregroundColor(.white).font(.system(size: 45)).bold().multilineTextAlignment(.center).frame(maxWidth:350)
                 Button {
@@ -87,6 +102,6 @@ struct NFLEasyMode: View {
 
 struct NFLEasyMode_Previews: PreviewProvider {
     static var previews: some View {
-        EasyMode()
+        NFLEasyMode()
     }
 }
