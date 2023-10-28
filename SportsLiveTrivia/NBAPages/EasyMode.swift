@@ -24,14 +24,14 @@ struct EasyMode: View {
         VStack(spacing: 30){
             Text("NBA").foregroundColor(fourthColor).bold().font(.system(size: 60))
             
-            if questionNum+1<max{
+            if questionNum<max{
                 Text(questions[questionNum]).foregroundColor(.white).bold().font(.system(size: 30)).frame(maxWidth: 300).multilineTextAlignment(.center)
 
                 Button {
                     if answers[questionNum] == mc1[questionNum]{
                         correct+=1
                     }
-                    if questionNum+1<max{
+                    if questionNum<max{
                         questionNum+=1
                     }
                     
@@ -43,7 +43,7 @@ struct EasyMode: View {
                     if answers[questionNum] == mc2[questionNum]{
                         correct+=1
                     }
-                    if questionNum+1<max{
+                    if questionNum<max{
                         questionNum+=1
                     }
                     
@@ -55,7 +55,7 @@ struct EasyMode: View {
                     if answers[questionNum] == mc3[questionNum]{
                         correct+=1
                     }
-                    if questionNum+1<max{
+                    if questionNum<max{
                         questionNum+=1
                     }
                     
@@ -65,7 +65,13 @@ struct EasyMode: View {
                 }
             }
             else{
-                Text("You got " + String(correct) + " answers correct!").foregroundColor(.white)
+                Text("You got " + String(correct) + " questions correct!").foregroundColor(.white).font(.system(size: 45)).bold().multilineTextAlignment(.center).frame(maxWidth:350)
+                Button {
+                    questionNum=0
+                    correct = 0
+                } label: {
+                    Label("Play Again", systemImage: ".cloud.rain").labelStyle(.titleOnly).bold().foregroundColor(.white).frame(maxWidth: 275).padding(.vertical).padding(.horizontal).background(thirdColor).cornerRadius(10).shadow(radius: 10)
+                }
             }
                         
             
