@@ -14,8 +14,8 @@ struct EasyMode: View {
     var fourthColor: Color = Color("Color4")
     @State var questionNum: Int = 0
     let questions = ["Who won the MVP last year?", "Who won the championship last year?", "Who has scored the most points in NBA history?", "How many fouls can a player commit before being ejected?", "How many points is a free throw worth?"]
-    let answers = ["Nikola Jokic","Nuggets", "LeBron James", "6", "1"]
-    let mc1 = ["Stephen Curry", "Celtics", "LeBron James", "4", "0"]
+    let answers = ["Joel Embiid","Nuggets", "LeBron James", "6", "1"]
+    let mc1 = ["Joel Embiid", "Celtics", "LeBron James", "4", "0"]
     let mc2 = ["LeBron James", "Nuggets", "Michael Jordan", "5", "1"]
     let mc3 = ["Nikola Jokic", "Bucks", "Kareem Abdul-Jabbar", "6", "2"]
     var max: Int = 5

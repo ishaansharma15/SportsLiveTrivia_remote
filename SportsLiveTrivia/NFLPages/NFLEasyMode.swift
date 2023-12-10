@@ -14,16 +14,16 @@ struct NFLEasyMode: View {
     var fourthColor: Color = Color("Color4")
     @State var questionNum: Int = 0
     let questions = ["Which NFL player has the most Superbowl wins?", "Who won the Superbowl last year?", "Which team's primary colors are black and orange?", "How many points is a touchdown worth?"]
-    let answers = ["Tom Brady","Chiefs", "Bengals", "6", "30"]
+    let answers = ["Tom Brady","Chiefs", "Bengals", "6"]
     
-    let mc1 = ["Jerry Rice", "Bengals", "Steelers", "6", "10"]
+    let mc1 = ["Jerry Rice", "Bengals", "Steelers", "6"]
     
-    let mc2 = ["Patrick Mahomes", "Patriots", "Browns", "7", "30"]
+    let mc2 = ["Patrick Mahomes", "Patriots", "Browns", "7"]
     
-    let mc3 = ["Rob Gronkowski", "Chiefs", "Dolphins", "8", "32"]
+    let mc3 = ["Rob Gronkowski", "Chiefs", "Dolphins", "8"]
     
-    let mc4 = ["Tom Brady", "49ers", "Bengals", "10", "20"]
-    var max: Int = 5
+    let mc4 = ["Tom Brady", "49ers", "Bengals", "10"]
+    var max: Int = 4
     @State var correct: Int = 0
     var body: some View {
         VStack(spacing: 30){
@@ -70,7 +70,7 @@ struct NFLEasyMode: View {
                 }
                 
                 Button {
-                    if answers[questionNum] == mc1[questionNum]{
+                    if answers[questionNum] == mc4[questionNum]{
                         correct+=1
                     }
                     if questionNum<max{
